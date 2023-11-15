@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Search Origin";
+}
+<h1>¿Where do you want to flight?</h1>
+
+<nav aria-label="breadcrumb" class="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item active">Step 1 - Origin</li>
+        <li class="breadcrumb-item">Step 2 - Destiny</li>
+        <li class="breadcrumb-item">Step 3 - Data</li>
+    </ol>
+</nav>
+
+<form class="form-search" asp-action="Destiny">
+    <h1 class="h3 mb-3 font-weight-normal">Confirm your origin city</h1>
+    <ul>
+        <li>@ViewBag.data</li>
+    </ul>
+    <br />
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Next step</button>
+</form>

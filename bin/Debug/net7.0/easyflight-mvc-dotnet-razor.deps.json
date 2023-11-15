@@ -1,0 +1,77 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "easyflight-mvc-dotnet-razor/1.0.0": {
+        "dependencies": {
+          "amadeus-dotnet": "2.0.0"
+        },
+        "runtime": {
+          "easyflight-mvc-dotnet-razor.dll": {}
+        }
+      },
+      "amadeus-dotnet/2.0.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.5.0",
+          "Newtonsoft.Json": "12.0.1",
+          "docfx.console": "2.41.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/amadeus-dotnet.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "docfx.console/2.41.0": {},
+      "Microsoft.CSharp/4.5.0": {},
+      "Newtonsoft.Json/12.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.1.22727"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "easyflight-mvc-dotnet-razor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "amadeus-dotnet/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ib8c23mLTzWRGt/k7bu+AZ63ww7+TFOOXxU5FgO6scKbjSyOATF6OWHgTnZxGW2J5nvxAmg8fIwLnDL676+O7w==",
+      "path": "amadeus-dotnet/2.0.0",
+      "hashPath": "amadeus-dotnet.2.0.0.nupkg.sha512"
+    },
+    "docfx.console/2.41.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Kw1HpgwpouRRJ/Lb6+fBq5nLKVOhiIx2d9X1owY6iB6HoCbSvrNdZMx/IJg88yLjBPEv0+52bNE2pXyBSFol6w==",
+      "path": "docfx.console/2.41.0",
+      "hashPath": "docfx.console.2.41.0.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
+      "path": "microsoft.csharp/4.5.0",
+      "hashPath": "microsoft.csharp.4.5.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pBR3wCgYWZGiaZDYP+HHYnalVnPJlpP1q55qvVb+adrDHmFMDc1NAKio61xTwftK3Pw5h7TZJPJEEVMd6ty8rg==",
+      "path": "newtonsoft.json/12.0.1",
+      "hashPath": "newtonsoft.json.12.0.1.nupkg.sha512"
+    }
+  }
+}

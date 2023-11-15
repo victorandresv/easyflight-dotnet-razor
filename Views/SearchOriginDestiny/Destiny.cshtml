@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Flight Search";
+}
+<h1>¿Where do you want to flight?</h1>
+
+<nav aria-label="breadcrumb" class="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item active">Step 1 - Origin</li>
+        <li class="breadcrumb-item active">Step 2 - Destiny</li>
+        <li class="breadcrumb-item">Step 3 - Data</li>
+    </ol>
+</nav>
+
+<form class="form-search">
+    <h1 class="h3 mb-3 font-weight-normal">Step 2 - Destiny</h1>
+    <label for="inputDestiny" class="sr-only">Destiny</label>
+    <input type="text" id="inputDestiny" class="form-control" placeholder="Type destiny city" required/>
+    <br/>
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Next step</button>
+</form>

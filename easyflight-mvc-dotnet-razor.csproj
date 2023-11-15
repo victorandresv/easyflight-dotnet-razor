@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>easyflight_mvc_dotnet_razor</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'https' " />
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
+  <ItemGroup>
+    <None Remove="Views\SearchOriginDestiny\" />
+    <None Remove="Libraries\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\SearchOriginDestiny\" />
+    <Folder Include="Libraries\" />
+  </ItemGroup>
+</Project>

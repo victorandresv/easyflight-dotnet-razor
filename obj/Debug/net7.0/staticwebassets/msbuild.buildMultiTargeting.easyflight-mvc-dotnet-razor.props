@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/easyflight-mvc-dotnet-razor.props" />
+</Project>
