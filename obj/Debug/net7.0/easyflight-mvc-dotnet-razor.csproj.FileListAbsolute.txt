@@ -29,6 +29,5 @@
 /Users/victorvargas/Development/2023/Lab/easyflight/easyflight-mvc-dotnet-razor/obj/Debug/net7.0/easyflight-mvc-dotnet-razor.pdb
 /Users/victorvargas/Development/2023/Lab/easyflight/easyflight-mvc-dotnet-razor/obj/Debug/net7.0/easyflight-mvc-dotnet-razor.genruntimeconfig.cache
 /Users/victorvargas/Development/2023/Lab/easyflight/easyflight-mvc-dotnet-razor/obj/Debug/net7.0/ref/easyflight-mvc-dotnet-razor.dll
-/Users/victorvargas/Development/2023/Lab/easyflight/easyflight-mvc-dotnet-razor/bin/Debug/net7.0/amadeus-dotnet.dll
-/Users/victorvargas/Development/2023/Lab/easyflight/easyflight-mvc-dotnet-razor/bin/Debug/net7.0/Newtonsoft.Json.dll
 /Users/victorvargas/Development/2023/Lab/easyflight/easyflight-mvc-dotnet-razor/obj/Debug/net7.0/easyflight-mvc-dotnet-razor.csproj.CopyComplete
+/Users/victorvargas/Development/2023/Lab/easyflight/easyflight-mvc-dotnet-razor/bin/Debug/net7.0/Newtonsoft.Json.dll

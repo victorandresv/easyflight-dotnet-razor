@@ -1,5 +1,5 @@
 ﻿using System.Net.Http.Headers;
-using amadeus;
+using easyflight_mvc_dotnet_razor.Libraries;
 using Microsoft.AspNetCore.Mvc;
 
 namespace easyflight_mvc_dotnet_razor.Controllers
@@ -11,13 +11,11 @@ namespace easyflight_mvc_dotnet_razor.Controllers
             return View();
         }
 
-        public IActionResult ConfirmOrigin(String inputOrigin)
+        public async Task<ActionResult> ConfirmOrigin(String inputOrigin)
         {
-            Amadeus amadeus = Amadeus
-                    .builder("UL3RwPkrJWESRaL6ZwWciQeEUZ772G8X", "I5rRCeudc9BzRUOM")
-                    .build();
-            Response results = amadeus.get("/v1/reference-data/locations", Params.with("subType", "AIRPORT").and("keyword", inputOrigin));
-            ViewBag.data = results.data;
+            AmadeusApiSdk amadeusApiSdk = new AmadeusApiSdk("UL3RwPkrJWESRaL6ZwWciQeEUZ772G8X", "I5rRCeudc9BzRUOM");
+            string data = await amadeusApiSdk.AirportAndCitySearch();
+            ViewBag.data = data;
             return View();
         }
 

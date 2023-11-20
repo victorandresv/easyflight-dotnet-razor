@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "sXuTyWBSO3GPXVygkvicrdD8t/uwVQ/2hDmIkF+6oGdhh+sE5zDToK6+WVRUQnPYBGKx4xbB77ebKTtOYOWlZw==",
+  "dgSpecHash": "vTLq0McZnuD91T7It+O2CYeBRjIlnTqbKe9g/WX3mr5TWSDVHs4wW9X+LEys6rzcRDWAdv/oxmOnjNyY9cFPSQ==",
   "success": true,
   "projectFilePath": "/Users/victorvargas/Development/2023/Lab/easyflight/easyflight-mvc-dotnet-razor/easyflight-mvc-dotnet-razor.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/victorvargas/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

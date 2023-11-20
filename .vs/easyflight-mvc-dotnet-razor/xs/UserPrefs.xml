@@ -1,35 +1,42 @@
 ﻿<Properties StartupConfiguration="{F69FE2EE-EA6B-4A55-BC9A-8A3D2B1C1210}|https">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Shared/_Layout.cshtml">
+  <MonoDevelop.Ide.ItemProperties.easyflight-mvc-dotnet-razor PreferredExecutionTarget="/Applications/Brave Browser.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Libraries/AmadeusApiSdk.cs">
     <Files>
-      <File FileName="Controllers/SearchOriginDestinyController.cs" Line="15" Column="10" />
-      <File FileName="Views/SearchOriginDestiny/Index.cshtml" Line="1" Column="26" />
-      <File FileName="Views/Shared/_Layout.cshtml" Line="6" Column="12" />
+      <File FileName="Controllers/SearchOriginDestinyController.cs" />
+      <File FileName="Views/SearchOriginDestiny/Index.cshtml" />
+      <File FileName="Views/SearchOriginDestiny/ConfirmOrigin.cshtml" />
+      <File FileName="Libraries/AmadeusApiSdk.cs" Line="73" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="easyflight-mvc-dotnet-razor" expanded="True">
             <Node name="easyflight-mvc-dotnet-razor" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
               <Node name="Controllers" expanded="True" />
+              <Node name="Libraries" expanded="True">
+                <Node name="AmadeusApiSdk.cs" selected="True" />
+              </Node>
               <Node name="Views" expanded="True">
                 <Node name="Home" expanded="True" />
                 <Node name="SearchOriginDestiny" expanded="True" />
-                <Node name="Shared" expanded="True">
-                  <Node name="_Layout.cshtml" selected="True" />
-                </Node>
+                <Node name="Shared" expanded="True" />
               </Node>
-              <Node name="wwwroot" expanded="True" />
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.easyflight-mvc-dotnet-razor PreferredExecutionTarget="/Applications/Brave Browser.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

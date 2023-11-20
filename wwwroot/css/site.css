@@ -23,7 +23,6 @@ body {
 
 .form-search {
     width: 100%;
-    max-width: 500px;
     padding: 20px;
 }
 .breadcrumb {
@@ -38,4 +37,7 @@ body {
 }
 .breadcrumb-item{
     color:white;
+}
+label{
+    font-size: 12px;
 }

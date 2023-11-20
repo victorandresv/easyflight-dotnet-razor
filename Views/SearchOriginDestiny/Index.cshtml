@@ -1,20 +1,75 @@
 ﻿@{
     ViewData["Title"] = "Search Origin";
 }
-<h1>¿Where do you want to flight?</h1>
+<h1>¿Where do you want to go?</h1>
 
 <nav aria-label="breadcrumb" class="breadcrumb">
     <ol class="breadcrumb">
-        <li class="breadcrumb-item active">Step 1 - Origin</li>
+        <li class="breadcrumb-item active">Step 1 - Flight information</li>
         <li class="breadcrumb-item">Step 2 - Destiny</li>
         <li class="breadcrumb-item">Step 3 - Data</li>
     </ol>
 </nav>
 
-<form class="form-search" asp-action="ConfirmOrigin">
-    <h1 class="h3 mb-3 font-weight-normal">Step 1 - Origin</h1>
-    <label for="inputOrigin" class="sr-only">Origin</label>
-    <input type="text" id="inputOrigin" name="inputOrigin" class="form-control" placeholder="Type origin city" required autofocus/>
-    <br />
-    <button class="btn btn-lg btn-primary btn-block" type="submit">Next step</button>
-</form>
+<div class="row">
+    <div class="col col-12 col-4 col-sm-12 col-md-8 col-lg-5">
+        <form class="form-search" asp-action="ConfirmOrigin">
+            <h1 class="h3 mb-3 font-weight-normal">Flight information</h1>
+            <label for="inputOrigin" class="sr-only">Origin</label>
+            <input type="text" id="inputOrigin" name="inputOrigin" class="form-control form-control-sm" placeholder="Type origin city" required autofocus />
+            <br />
+
+            <label for="inputDestiny" class="sr-only">Destiny</label>
+            <input type="text" id="inputDestiny" name="inputDestiny" class="form-control form-control-sm" placeholder="Type destiny city" required />
+            <br />
+
+            <div class="row">
+                <div class="col">
+                    <label for="departureDate" class="sr-only">Departure date</label>
+                    <input type="date" id="departureDate" name="departureDate" class="form-control form-control-sm" required />
+                </div>
+                <div class="col">
+                    <label for="returnDate" class="sr-only">Return date (Optional)</label>
+                    <input type="date" id="returnDate" name="returnDate" class="form-control form-control-sm" />
+                </div>
+            </div>
+            <br />
+
+            <div class="row">
+                <div class="col">
+                    <label for="adults" class="sr-only">Passengers <br />(adults)</label>
+                    <select name="adults" id="adults" class="form-control form-control-sm">
+                        <option value="1" selected>1</option>
+                        @for (int n = 2; n <= 9; n++)
+                        {
+                            <option value="@n">@n</option>
+                        }
+                    </select>
+                </div>
+                <div class="col">
+                    <label for="children" class="sr-only">Passengers <br />(children)</label>
+                    <select name="children" id="children" class="form-control form-control-sm">
+                        <option value="">No children</option>
+                        @for (int n = 1; n <= 9; n++)
+                        {
+                            <option value="@n">@n</option>
+                        }
+                    </select>
+                </div>
+                <div class="col">
+                    <label for="infants" class="sr-only">Passengers <br />(infants)</label>
+                    <select name="infants" id="infants" class="form-control form-control-sm">
+                        <option value="">No infants</option>
+                        @for (int n = 1; n <= 9; n++)
+                        {
+                            <option value="@n">@n</option>
+                        }
+                    </select>
+                </div>
+            </div>
+            <br />
+
+            <button class="btn btn-sm btn-primary btn-block" type="submit">Search flights</button>
+        </form>
+    </div>
+</div>
