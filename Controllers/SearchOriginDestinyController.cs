@@ -14,8 +14,8 @@ namespace easyflight_mvc_dotnet_razor.Controllers
         public async Task<ActionResult> ConfirmOrigin(String inputOrigin)
         {
             AmadeusApiSdk amadeusApiSdk = new AmadeusApiSdk("UL3RwPkrJWESRaL6ZwWciQeEUZ772G8X", "I5rRCeudc9BzRUOM");
-            string data = await amadeusApiSdk.AirportAndCitySearch();
-            ViewBag.data = data;
+            //string data = await amadeusApiSdk.AirportAndCitySearch();
+            ViewBag.data = "";
             return View();
         }
 

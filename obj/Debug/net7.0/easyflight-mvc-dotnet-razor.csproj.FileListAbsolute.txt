@@ -6,6 +6,10 @@
 /Users/victorvargas/Development/2023/Lab/easyflight/easyflight-mvc-dotnet-razor/bin/Debug/net7.0/easyflight-mvc-dotnet-razor.runtimeconfig.json
 /Users/victorvargas/Development/2023/Lab/easyflight/easyflight-mvc-dotnet-razor/bin/Debug/net7.0/easyflight-mvc-dotnet-razor.dll
 /Users/victorvargas/Development/2023/Lab/easyflight/easyflight-mvc-dotnet-razor/bin/Debug/net7.0/easyflight-mvc-dotnet-razor.pdb
+/Users/victorvargas/Development/2023/Lab/easyflight/easyflight-mvc-dotnet-razor/bin/Debug/net7.0/DotNetEnv.dll
+/Users/victorvargas/Development/2023/Lab/easyflight/easyflight-mvc-dotnet-razor/bin/Debug/net7.0/Newtonsoft.Json.dll
+/Users/victorvargas/Development/2023/Lab/easyflight/easyflight-mvc-dotnet-razor/bin/Debug/net7.0/Sprache.dll
+/Users/victorvargas/Development/2023/Lab/easyflight/easyflight-mvc-dotnet-razor/bin/Debug/net7.0/System.Security.Permissions.dll
 /Users/victorvargas/Development/2023/Lab/easyflight/easyflight-mvc-dotnet-razor/obj/Debug/net7.0/easyflight-mvc-dotnet-razor.csproj.AssemblyReference.cache
 /Users/victorvargas/Development/2023/Lab/easyflight/easyflight-mvc-dotnet-razor/obj/Debug/net7.0/easyflight-mvc-dotnet-razor.GeneratedMSBuildEditorConfig.editorconfig
 /Users/victorvargas/Development/2023/Lab/easyflight/easyflight-mvc-dotnet-razor/obj/Debug/net7.0/easyflight-mvc-dotnet-razor.AssemblyInfoInputs.cache
@@ -24,10 +28,9 @@
 /Users/victorvargas/Development/2023/Lab/easyflight/easyflight-mvc-dotnet-razor/obj/Debug/net7.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
 /Users/victorvargas/Development/2023/Lab/easyflight/easyflight-mvc-dotnet-razor/obj/Debug/net7.0/scopedcss/bundle/easyflight-mvc-dotnet-razor.styles.css
 /Users/victorvargas/Development/2023/Lab/easyflight/easyflight-mvc-dotnet-razor/obj/Debug/net7.0/scopedcss/projectbundle/easyflight-mvc-dotnet-razor.bundle.scp.css
+/Users/victorvargas/Development/2023/Lab/easyflight/easyflight-mvc-dotnet-razor/obj/Debug/net7.0/easyflight-mvc-dotnet-razor.csproj.CopyComplete
 /Users/victorvargas/Development/2023/Lab/easyflight/easyflight-mvc-dotnet-razor/obj/Debug/net7.0/easyflight-mvc-dotnet-razor.dll
 /Users/victorvargas/Development/2023/Lab/easyflight/easyflight-mvc-dotnet-razor/obj/Debug/net7.0/refint/easyflight-mvc-dotnet-razor.dll
 /Users/victorvargas/Development/2023/Lab/easyflight/easyflight-mvc-dotnet-razor/obj/Debug/net7.0/easyflight-mvc-dotnet-razor.pdb
 /Users/victorvargas/Development/2023/Lab/easyflight/easyflight-mvc-dotnet-razor/obj/Debug/net7.0/easyflight-mvc-dotnet-razor.genruntimeconfig.cache
 /Users/victorvargas/Development/2023/Lab/easyflight/easyflight-mvc-dotnet-razor/obj/Debug/net7.0/ref/easyflight-mvc-dotnet-razor.dll
-/Users/victorvargas/Development/2023/Lab/easyflight/easyflight-mvc-dotnet-razor/obj/Debug/net7.0/easyflight-mvc-dotnet-razor.csproj.CopyComplete
-/Users/victorvargas/Development/2023/Lab/easyflight/easyflight-mvc-dotnet-razor/bin/Debug/net7.0/Newtonsoft.Json.dll
